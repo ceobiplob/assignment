@@ -7,11 +7,13 @@ body {
 .banner {
   background-image: url(../resources/Banner\ Image.png);
   background-repeat: no-repeat;
-  padding: 50px 40px 1000px 40px;
+  padding: 50px 40px 10px 40px;
   margin: 50px 0px 20px 110px;
   border-radius: 16px;
   color: #070211;
   align-items: center;
+  /* background:linear-gradient(180deg, #070211 0%,; */
+  background-image: linear-gradient(url Image, color #070211);
 }
 
 .firt-paragraph {
@@ -64,7 +66,49 @@ body {
   width: 802.9px;
   height: 500px;
   flex-shrink: 0;
-  margin: 48px 260px 120px 260px;
+  margin: 48px 260px 0px 260px;
   align-content: center;
-  
+}
+/* banner 2 */
+.welcome {
+  background-image: url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  padding: 50px 40px 1000px 40px;
+  margin: 50px 0px 20px 110px;
+  border-radius: 16px;
+  color: #070211;
+  align-items: center;
+  display: flex;
+}
+.wel {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.doll {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wellbtn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: #070211;
+}
+.gpsav{
+  padding: auto;
+  /* display: flex; */
 }
