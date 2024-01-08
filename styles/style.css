@@ -1,0 +1,69 @@
+/* share style */
+body {
+  font-family: "Merriweather", serif;
+}
+
+/* First Banner*/
+.banner {
+  background-image: url(../resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  padding: 50px 140px 1000px 140px;
+  margin: 50px 0px 150px 140px;
+  border-radius: 16px;
+  color: #070211;
+}
+
+.firt-paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin: 177px 330px 0px 330px;
+}
+.new-year {
+  color: #ffffff;
+  text-align: center;
+  font-size: 70px;
+  margin: 0px 244px 177px 244px;
+}
+/* main */
+.discound {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 250px 0px 20px 0px;
+}
+
+.holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 48px 0px 0px 0px;
+}
+
+.cate {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 16px 0px 0px 0px;
+}
+.nyp {
+  align-items: center;
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
+  margin: 48px 260px 120px 260px;
+  align-content: center;
+  
+}
