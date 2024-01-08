@@ -79,7 +79,7 @@ body {
   color: #070211;
   align-items: center;
   display: flex;
-  fill: linear-gradient(90deg, #070211);
+  /* background: linear-gradient(rgba(32, 27, 27, 0.527), rgba(26, 24, 24, 0.897)); */
 }
 .wel {
   color: #fff;
@@ -172,4 +172,80 @@ body {
 .jbtn {
   margin-top: 10px;
   border-radius: 8px;
+}
+
+/* chapter four */
+.div2 {
+  display: flex;
+  margin: 120px ;
+  width: 1600px;
+  height: 7335px;
+  /* align-items: center; */
+}
+
+.nbo {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cs {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.dsa {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.hhp {
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  margin: 10px 50px 10px 10px;
+}
+
+/* c3 s2 */
+.center {
+  align-items: center;
+  margin: 0px 30px 0px 30px;
+}
+
+.cen1 {
+  border: #f00;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 10px;
+}
+/* c4 s3 */
+.n {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dsac {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.hpi{
+  margin: 0px 0px 0px 50px;
 }
