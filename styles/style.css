@@ -73,7 +73,7 @@ body {
 .welcome {
   background-image: url(../resources/Vectorrr.png);
   background-repeat: no-repeat;
-  padding: 70px 40px 1000px 40px;
+  padding: 70px 40px 100px 40px;
   margin: 150px 0px 20px 110px;
   border-radius: 16px;
   color: #070211;
@@ -113,9 +113,63 @@ body {
   background: none;
   margin: 28px 22px;
 }
-.gpsav{
+.gpsav {
   padding: 0px 0px 0px 110px;
 }
-.div1{
+.div1 {
   margin: 1px 20px 0px 0px;
+}
+/* task three */
+
+.txt {
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 100px;
+  margin: 100px 50px 50px 80px;
+  border-radius: 10px;
+}
+
+.text {
+  color: #f00;
+  text-align: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.textpera {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.jbtn {
+  align-items: center;
+  padding: 15px;
+  margin: 10px 375px 10px 375px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #f00;
+  border: none;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.jbtn {
+  margin-top: 10px;
+  border-radius: 8px;
 }
