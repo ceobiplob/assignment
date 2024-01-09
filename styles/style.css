@@ -79,6 +79,7 @@ body {
   color: #070211;
   align-items: center;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* background: linear-gradient(rgba(32, 27, 27, 0.527), rgba(26, 24, 24, 0.897)); */
 }
 .wel {
@@ -175,15 +176,15 @@ body {
 }
 
 /* chapter four */
-.div2 {
-  display: flex;
-  margin: 120px ;
-  width: 1600px;
-  height: 7335px;
-  /* align-items: center; */
-}
 
-.nbo {
+.section5 {
+  display: flex;
+  align-items: center;
+  /* padding: 120px; */
+  margin: 120px;
+  justify-content: space-between;
+}
+.r {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
@@ -200,7 +201,7 @@ body {
   line-height: normal;
   text-transform: capitalize;
 }
-.dsa {
+.dsac {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -208,27 +209,7 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-.hhp {
-  align-items: left;
-  justify-content: left;
-  text-align: left;
-  margin: 10px 50px 10px 10px;
-}
-
-/* c3 s2 */
-.center {
-  align-items: center;
-  margin: 0px 30px 0px 30px;
-}
-
-.cen1 {
-  border: #f00;
-  border-radius: 463px;
-  border: 15px solid #f00;
-  padding: 10px;
-}
-/* c4 s3 */
-.n {
+.s5c3 h1 {
   color: #f00;
   font-family: Inter;
   font-size: 48px;
@@ -236,16 +217,81 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.s5c3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.s5c3 img {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+.s5c2 img {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  margin: 10px;
+  padding: 10px;
+}
+/* Section sixth */
+.whd {
+  text-align: center;
+  margin: 120px;
+  padding: 100px;
+}
 
-.dsac {
+.rectangle2 {
+  /* margin: 120px; */
+  padding: 100px;
+  align-items: center;
+}
+/* section 7 */
+
+.sec7 {
+  align-items: center;
+  padding: 120px;
+}
+
+.section7 {
+  display: flex;
+  margin: 10px 0px;
+  justify-content: space-between;
+  margin-left: 2px;
+}
+.section7 img {
+  padding: 5px;
+}
+.section7 img:hover {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.bref h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0%;
+}
+.bref h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.bref p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
-}
-
-.hpi{
-  margin: 0px 0px 0px 50px;
 }
